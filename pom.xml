@@ -102,7 +102,7 @@
 
     <modules>
         <module>multiverse-core</module>
-        <!-- module>multiverse-core-benchmarks</module -->
+        <module>multiverse-core-benchmark</module>
     </modules>
 
     <profiles>

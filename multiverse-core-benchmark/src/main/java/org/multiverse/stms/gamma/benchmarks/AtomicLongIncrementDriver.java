@@ -3,6 +3,7 @@ package org.multiverse.stms.gamma.benchmarks;
 import org.benchy.BenchmarkDriver;
 import org.benchy.TestCaseResult;
 import org.multiverse.TestThread;
+import org.multiverse.stms.gamma.BenchmarkUtils;
 
 import java.util.concurrent.atomic.AtomicLong;
 

@@ -7,6 +7,7 @@ import org.multiverse.api.Txn;
 import org.multiverse.api.TxnExecutor;
 import org.multiverse.api.LockMode;
 import org.multiverse.api.callables.TxnVoidCallable;
+import org.multiverse.stms.gamma.BenchmarkUtils;
 import org.multiverse.stms.gamma.GammaStm;
 import org.multiverse.stms.gamma.transactionalobjects.GammaTxnLong;
 

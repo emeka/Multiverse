@@ -5,6 +5,7 @@ import org.multiverse.TestThread;
 import org.multiverse.api.LockMode;
 import org.multiverse.stms.gamma.GammaConstants;
 import org.multiverse.stms.gamma.GammaStm;
+import org.multiverse.stms.gamma.Result;
 import org.multiverse.stms.gamma.transactionalobjects.GammaTxnLong;
 import org.multiverse.stms.gamma.transactions.GammaTxnConfig;
 import org.multiverse.stms.gamma.transactions.fat.FatMonoGammaTxn;
@@ -15,7 +16,8 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 import static org.multiverse.TestUtils.joinAll;
 import static org.multiverse.TestUtils.startAll;
-import static org.multiverse.stms.gamma.benchmarks.BenchmarkUtils.*;
+import static org.multiverse.stms.gamma.BenchmarkUtils.*;
+
 
 public class UncontendedLeanUpdateBenchmark implements GammaConstants {
     private GammaStm stm;
